@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/185616/e9700dd06c0745539285f2eb31e6a37b
+bundleId: https://api.rpubs.com/api/v1/document/185616/e9700dd06c0745539285f2eb31e6a37b
+url: http://rpubs.com/kutex09/185616
+when: 1464734633.60595

@@ -1,0 +1,10 @@
+name: DDP_Course_Project
+account: kutexshiny
+server: shinyapps.io
+appId: 105629
+bundleId: 467667
+url: https://kutexshiny.shinyapps.io/DDP_Course_Project/
+when: 1464733513.55279
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: CLPSO-main.R|DDP-Project.R|deJong.R|index.Rmd|Michalewicz.R|pso.R|Rastrigin.R|Readme.html|Readme.Rmd|Schwefel.R|testui.R|Toroidal.R|uiR.R

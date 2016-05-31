@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Developing Data Products</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Developing Data Products">
+  <meta name="author" content="Arinze Akutekwe">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Developing Data Products</h1>
+    <h2>Comprehensive Learning Particle Swarm Optimization</h2>
+    <p>Arinze Akutekwe<br/>Data Scientist</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>What is CLPSO?</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>A variant of Particle SWarm Optimization.</p></li>
+<li><p>Used for global optimization of multimodal functions.</p></li>
+<li><p>Was used for different optimization scenarios during PhD.</p></li>
+<li><p>Performs much better when compared to others (in my opinion).</p></li>
+</ul>
+
+<hr>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>About the package</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>Implements eight popular test problems. Allows user to enter desired number of iterations</p></li>
+<li><p>The higher the number, the bigger the problem and hence more time!</p></li>
+<li><p>User can also select number of populations (particles) and number of number of dimensions.</p>
+
+<h3>Result Outputs</h3></li>
+<li><p>Initial Best Fitness</p></li>
+<li><p>Initil Best Solution</p></li>
+<li><p>Final Best Fitness</p></li>
+<li><p>Final Best Solution</p></li>
+<li><p>A plot of best values versus number of iterations.</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Discussion</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>Various parameters affect the output of the algorithm</p>
+
+<ul>
+<li>Many of the parameters have been fixed for simplicity, see <a href="http://tinyurl.com/hkvhtuj">J.J Liang et al (2006)</a> for more details.</li>
+<li>Was implemented to fine-tune the parameters of the Elman Recurrent Neural Network with Dynamic Bayesian Network</li>
+<li>More details in the paper <a href="http://tinyurl.com/z79yctn">A. Akutekwe and H. Seker (2015)</a></li>
+</ul></li>
+<li><p>The Schwefel function is complex, with many local minima and for a much larger dimensional space (-500,500)
+than what was fixed here in this work (-5.12,5.12) for simplicity. Hence it looks as if nothing happened.</p></li>
+</ul>
+
+<hr>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Conclusion</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>No free lunch in the world of optimization.</p></li>
+<li><p>No &quot;best&quot; algorithm. Differential Evolution algorithm could perform better in some cases.</p></li>
+<li><p>Simple test problems such as DeJobg and Parabola are minimized the most.</p></li>
+<li><p>The code can be made better, faster and parallelized. Please contribute to it :)</p></li>
+</ul>
+
+<hr>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='What is CLPSO?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='About the package'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Discussion'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Conclusion'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
